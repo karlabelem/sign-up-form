@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    
+}
+
+.image {
+    display: flex;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+
+}
+
+.ending-text {
+    
+}
