@@ -5,6 +5,11 @@ body {
 
 .image {
     display: flex;
+    flex: 0 0 35%;
+}
+
+main {
+    flex: 1;
 }
 
 .intro-text {
@@ -25,16 +30,32 @@ main > div,
     flex-direction: column;
 }
 
+form {
+    margin-left: 40px;
+    padding-right: 40px;
+}
+
 form > div {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
 }
 
+.field {
+    margin-right: 40px;
+}
+
 input {
-    
+    width: 200px;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
 }
 
 .ending-text {
-    
+    margin-top: 20px;
+    margin-left: 40px;
 }
