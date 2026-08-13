@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&family=Libre+Caslon+Text:wght@400;700&display=swap');
+
 body {
     display: flex;
     margin: 0;
-    background-color: #FAF7F2;
+    background-color: #EDEAE4;
 }
 
 .image {
@@ -21,7 +23,7 @@ main {
 
 .intro-text > p {
     font-size: 1.1rem;
-    max-width: 450px;
+    max-width: 400px;
 }
 
 form,
@@ -29,6 +31,15 @@ main > div,
 .field {
     display: flex;
     flex-direction: column;
+}
+
+.intro-text, 
+.intro-text h1 {
+  font-family: 'Libre Caslon Text', serif;
+}
+
+body, label, input, button, .field {
+  font-family: 'Arsenal', sans-serif;
 }
 
 form {
@@ -48,6 +59,12 @@ form > div {
 
 input {
     width: 200px;
+}
+
+label {
+  font-size: 0.75rem;
+  color: #6b6862;
+  letter-spacing: 0.05em;
 }
 
 button {
