@@ -73,6 +73,22 @@ form > div {
 
 input {
     width: 200px;
+    border: 1px solid #b8b3a6;
+    border-radius: 2px;
+    padding: 6px 8px;
+}
+
+input:user-valid {
+    border-color: #7A8B6F;
+}
+
+input:user-invalid {
+    border-color: #B5675C;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(28, 19, 0, 0.15);
 }
 
 label {
