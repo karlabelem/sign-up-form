@@ -1,6 +1,6 @@
 # Sign-Up Form — Spa Edition
 
-A calm, boutique spa-themed sign-up form, built with semantic HTML and CSS.
+A calm, editorial sign-up form for an imagined spa brand — built with HTML and CSS, with a focus on typography and layout.
 
 ## About
 
