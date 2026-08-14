@@ -1,10 +1,10 @@
 # Sign-Up Form — Spa Edition
 
-A reimagining of The Odin Project's Sign-up Form, rebuilt with a calm, boutique spa aesthetic instead of the original design.
+A calm, boutique spa-themed sign-up form, built with semantic HTML and CSS.
 
 ## About
 
-This project follows the same structural requirements as the original Odin Project assignment (a two-column layout, grouped form fields, semantic HTML, and CSS layout with Flexbox) but reinterprets the visual design with a warmer, more editorial feel; inspired by minimalist spa and skincare branding.
+A two-column sign-up form with grouped fields, built with semantic HTML and CSS layout, with a warm, editorial feel inspired by minimalist spa and skincare branding.
 
 ## Design choices
 
@@ -17,7 +17,13 @@ This project follows the same structural requirements as the original Odin Proje
 |---|---|---|
 | ![#EDEAE4](https://placehold.co/15x15/EDEAE4/EDEAE4.png) | `#EDEAE4` | Page background |
 | ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png) | `#FFFFFF` | Form card background |
-| ![#6b6862](https://placehold.co/15x15/6b6862/6b6862.png) | `#6b6862` | Labels, muted text, button |
+| ![#FAF7F2](https://placehold.co/15x15/FAF7F2/FAF7F2.png) | `#FAF7F2` | Button text |
+| ![#6b6862](https://placehold.co/15x15/6b6862/6b6862.png) | `#6b6862` | Labels, muted text, button background |
+| ![#b8b3a6](https://placehold.co/15x15/b8b3a6/b8b3a6.png) | `#b8b3a6` | Input border (default state) |
+| ![#7A8B6F](https://placehold.co/15x15/7A8B6F/7A8B6F.png) | `#7A8B6F` | Input border (valid state) |
+| ![#B5675C](https://placehold.co/15x15/B5675C/B5675C.png) | `#B5675C` | Input border (invalid state) |
+| rgba(43, 38, 32, 0.08) | — | Form card shadow |
+| rgba(28, 19, 0, 0.15) | — | Input focus ring |
 
 **Layout**
 - Two-column split: full-bleed still-life photography on the left, content on the right
@@ -27,8 +33,9 @@ This project follows the same structural requirements as the original Odin Proje
 ## Built with
 
 - Semantic HTML5
-- CSS3
-- Google Fonts
+- CSS3 (Flexbox for layout)
+- Google Fonts (Libre Caslon Text, Arsenal)
 
 ## Acknowledgments
+
 - Photo credit: [*Kaboompics*](https://kaboompics.com/photo/30636/organic-hygiene-products-solid-soap-bar-with-natural-sea-sponge)
