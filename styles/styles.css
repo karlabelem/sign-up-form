@@ -111,4 +111,9 @@ button {
 .ending-text {
     margin-top: 20px;
     margin-left: 40px;
+    display: block;
+}
+
+.ending-text span {
+    color: #6b6862;
 }
